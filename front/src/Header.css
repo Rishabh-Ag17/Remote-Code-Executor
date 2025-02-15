@@ -1,0 +1,42 @@
+/* Header.css */
+.header {
+  display: flex;
+  background-color: #282a36;
+  padding: 10px;
+  color: white;
+  align-items: center;
+  gap: 10px;
+}
+
+.header button {
+  background-color: #44475a;
+  color: #f8f8f2;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.header button:hover {
+  background-color: #6272a4;
+}
+
+.header button:active {
+  transform: scale(0.95);
+}
+
+.run-button {
+  margin-left: auto;
+  background-color: #50fa7b;
+  color: #282a36;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.run-button:hover {
+  background-color: #40d97a;
+}
