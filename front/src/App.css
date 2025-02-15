@@ -1,12 +1,3 @@
-html,
-body,
-#root {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
 .container {
   display: flex;
   flex-direction: column;
@@ -23,6 +14,6 @@ body,
 .console-container {
   display: flex;
   flex-direction: row;
-  height: 200px; 
+  height: 200px;
   overflow: hidden;
 }
